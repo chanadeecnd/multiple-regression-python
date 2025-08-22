@@ -1,4 +1,3 @@
-
 def calculate_required_voltage(desired_output_voltage: float, operating_frequency_mhz: float) -> float:
     # Coefficients from MLR
     intercept = 74.9390
@@ -24,4 +23,3 @@ calculate_required_voltage(100, 1.9)
 calculate_required_voltage(100, 1.8)
 calculate_required_voltage(100, 1.7)
 calculate_required_voltage(100, 1.6)
-
